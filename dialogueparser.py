@@ -172,10 +172,6 @@ def convert(*args):
 
                     print(f"Adding emotion {line}")
 
-                case "DeleteSpeaker":
-                    processedText += line + "\n"
-                    print(f"Running DeleteSpeaker on line {count}")
-
                 case "Panicked":
                     nextDialogueIsPanicked = True
                     print(f"Dramatic bubble on line {count}")
