@@ -5,29 +5,41 @@ Example:
 
 ![Example](example.PNG "Example")
 
-Flags:
+# Flags:
 
-Replace 'Corrin':
+### Replace 'Corrin':
 
 Replaces occurrences of "Corrin" with "$Nu" or "username", as appropriate.
 
-S-Support:
+### S-Support:
 
 Inserts the fade to white seen at the end of S-Support dialogue.
 
 
-Commands:
+# Commands:
 
 Inserted on their own lines, not in-line with dialogue.
 
-$Left/$Right/$Top/$Bottom - Mandatory on non-Support text, must be called before a new speaker first speaks
+### $Left/$Right/$Top/$Bottom
 
-$FadeInOut - Inserts a short fade to black and back
+Mandatory on non-Support text, must be called before a new speaker first speaks
 
-$Emotions(argument) - The following speaker will use the specified emotion
+### $FadeInOut
 
-$DeleteSpeaker - Deletes the previous speaker from the scene
+Inserts a short fade to black and back
 
-$Panicked - The next line of dialogue will have the yelling/panicked effect on its box
+### $Emotions(argument)
 
-$SFX(argument) - Plays the specified sound effect (placeholder text can be entered if you just want the formatting)
+The following speaker will use the specified emotion
+
+### $DeleteSpeaker
+
+Deletes the previous speaker from the scene
+
+### $Panicked
+
+The next line of dialogue will have the yelling/panicked effect on its box
+
+### $SFX(argument)
+
+Plays the specified sound effect (placeholder text can be entered if you just want the formatting)
